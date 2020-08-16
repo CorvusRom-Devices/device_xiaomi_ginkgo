@@ -484,7 +484,3 @@ PRODUCT_PACKAGES += \
 # Wallpapers
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
-
-# Recorder
-PRODUCT_PACKAGES += \
-    KimciRecorder
