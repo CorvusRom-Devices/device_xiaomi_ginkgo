@@ -8,3 +8,7 @@ hal_client_domain(system_app, vendor_hal_fm)
 allow system_app kcal_dev:dir search;
 allow system_app kcal_dev:file rw_file_perms;
 allow system_app default_android_service:service_manager { find };
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read };
+allow system_app sysfs_battery_supply:file { open };
+allow system_app sysfs_battery_supply:file { getattr }; 
